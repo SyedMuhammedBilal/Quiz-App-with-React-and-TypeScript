@@ -2,7 +2,7 @@ import React, {useState, Fragment} from 'react';
 import './App.css';
 import { QuestionCard } from './components/QuestionCard';
 import { GlobalStyles, Wrapper } from './App.styles';
-import { fetchQuestions, Difficulty, QuestionState, Question } from './API';
+import { fetchQuestions, Difficulty, QuestionState } from './API';
 
 const TOTAL_QUESTION = 10;
 

@@ -1,6 +1,5 @@
 // @ts-ignore
 import styled, { createGlobalStyle } from 'styled-components';
-import Cover from './background.jpg';
 
 export const GlobalStyles = createGlobalStyle`
   html{
