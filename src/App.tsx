@@ -67,7 +67,7 @@ function App() {
       <GlobalStyles/>
       <div>
         <Wrapper>
-        <h1>Quiz</h1>
+        <h1>Quiz App</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTION ? (
           <button className="btn" onClick={startQuiz}>
             start

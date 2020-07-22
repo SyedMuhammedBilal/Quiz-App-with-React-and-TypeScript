@@ -1,4 +1,6 @@
+// @ts-ignore
 import styled, { createGlobalStyle } from 'styled-components';
+import Cover from './background.jpg';
 
 export const GlobalStyles = createGlobalStyle`
   html{
@@ -6,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body{
-    background-color: navy;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     margin: 0;
     padding: 0 20px;
     display: flex;
@@ -30,12 +32,23 @@ export const Wrapper = styled.div`
     font-size: 2rem;
     margin: 0;
   }
-  h1{
+  .btn{
     background-image: linear-gradient(180deg, #fff, #87f1ff);
     border: 2px solid #d38558;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     height: 40px;
+    font-size: 1rem;
+    margin: 20px 0;
+    padding: 0 40px;
+  }
+  .next{
+    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    border: 2px solid #d38558;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 1rem;
     margin: 20px 0;
     padding: 0 40px;
   }

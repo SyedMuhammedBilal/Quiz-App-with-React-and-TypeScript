@@ -32,7 +32,7 @@ export const QuestionCard: React.FC<Props> = ({
                 <span dangerouslySetInnerHTML={{ __html: answer }} />
               </button>
             </ButtonWrapper>
-          ))};
+          ))}
         </div>
       </div>
     </Wrapper>
